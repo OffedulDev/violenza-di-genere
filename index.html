@@ -4,12 +4,181 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
         <title>Homepage</title>
     </head>
     <body>
-        <div class="container column center">
+        <div class="absolute" id="cookies__box">
+            <span>
+                Questo sito utilizza i cookie, continuando a navigare accetti automaticamente l'uso dei medesimi.
+            </span>
+            <button id="accept__cookies">
+                Ok
+            </button>
+        </div>
+        <div class="container column center" id="intro__section">
+            <div class="container column center intro-section" id="intro__section__0">
+                <span class="text bigger bold nowrap text-center" style="color: lightblue; margin-bottom: 0.25rem;">
+                    Benvenuto!
+                </span>
+                <span class="text big bold nowrap text-center">
+                    Questo è un sito interattivo.
+                </span>
+                <button class="button button-secondary margin-top-classic next-intro-section">
+                    Continua istruzioni
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__0-5">
+                <span class="text bigger bold nowrap text-center" style="color: lightblue; margin-bottom: 0.25rem;">
+                    Istruzioni (2/3)
+                </span>
+                <span class="text big bold nowrap text-center">
+                    Puoi mettere il puntatore sulle <a class="primary" title="Hey ciao!">parole sottolineate</a> per vedere significati, approfondimenti o spiegazioni.
+                </span>
+                <button class="button button-secondary margin-top-classic next-intro-section">
+                    Continua istruzioni
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__0-75">
+                <span class="text bigger bold nowrap text-center" style="color: lightblue; margin-bottom: 0.25rem;">
+                    Istruzioni (3/3)
+                </span>
+                <span class="text big bold nowrap text-center">
+                    Quando vedi una parola che lampeggia <a id="instruction__hover" class="text-glow stop-glow-on-hover" title="Hey ciao come stai?">così</a> devi mettere il puntatore sopra e leggere il significato per proseguire.
+                </span>
+                <script>
+                    $("#instruction__hover").hover(() => {
+                        setTimeout(() => {
+                            $("#intro__section__0-75__button").removeClass("disabled")
+                            $("#intro__section__0-75__button").prop("disabled", false)
+                            $("#instruction__hover").off("mouseenter")
+                        }, 1500)
+                    })
+                </script>
+                <button class="button button-secondary margin-top-classic next-intro-section disabled" disabled id="intro__section__0-75__button">
+                    Inizia
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__1">
+                <span class="text big bold nowrap text-center">
+                    L'ugualianza è espressa nella <a title="Dichiarazione dei diritti umani PDF" href="https://www.ohchr.org/sites/default/files/UDHR/Documents/UDHR_Translations/itn.pdf" class="primary">dichiarazione dei diritti dell'uomo</a>
+                </span>
+                <button class="button button-secondary margin-top-classic next-intro-section">
+                    Continua
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__2">
+                <span class="text big italic nowrap text-center">
+                    "Tutti gli uomini nascano uguali ma sono le condizioni sociali a renderli diversi."
+                </span>
+                <button class="button button-secondary margin-top-classic next-intro-section">
+                    Continua
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__3">
+                <span class="text big bold nowrap text-center">
+                    I diritti umani garantiscano pari dignità sociali e legali senza <span class="red">alcuna distinzione</span>
+                </span>
+                <button class="button button-secondary margin-top-classic next-intro-section">
+                    Continua
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__4">
+                <span class="text big bold nowrap text-center">
+                    Lo Stato si impegna a rispettare ad <span class="red">eliminare</span> ostacoli che impediscono lo sviluppo e <a class="primary" title="Essere uguali in tutti i campi, economico, sociale e davanti alla legge.">l'ugualianza</a>
+                </span>
+                <button class="button button-secondary margin-top-classic next-intro-section">
+                    Continua
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__5">
+                <span class="text big bold nowrap text-center">
+                    D'altra parte, siamo davanti a sempre più casi di <a class="red underline text-glow stop-glow-on-hover" title="Possano essere di diverso tipo: fisica, psicologica, verbale, economica o affettiva" id="violenze__hover">violenze</a> giorno per giorno 
+                </span>
+                <script>
+                    $("#violenze__hover").hover(() => {
+                        setTimeout(() => {
+                            $("#intro__section__5__button").removeClass("disabled")
+                            $("#intro__section__5__button").prop("disabled", false)
+                            $("#violenze__hover").off("mouseenter")
+                        }, 1500)
+                    })
+                </script>
+                <button class="button button-secondary margin-top-classic next-intro-section disabled" disabled id="intro__section__5__button">
+                    Continua
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__6">
+                <span class="text big bold nowrap text-center">
+                    Questi tipi di violenze vengano perpetrate da:<br>
+                    <ul class="text">
+                        <li>Fidanzati</li>
+                        <li>Mariti</li>
+                        <li>Ex</li>
+                        <li>Fratelli</li>
+                        <li>Padri</li>
+                    </ul>
+                </span>
+                <button class="button button-secondary margin-top-classic next-intro-section">
+                    Continua
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__7">
+                <span class="text big bold nowrap text-center">
+                    Questo tipo di violenza rivolta verso una specifica <a class="primary" title="Con specie umana non si intende l'intera specie ma bensì solo una parte ovvero femmine/maschi.">specie umana</a> si chiama <span class="red">violenza di genere</span>
+                </span>
+                <button class="button button-secondary margin-top-classic next-intro-section">
+                    Continua
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__8">
+                <span class="text big bold nowrap text-center">
+                    Le leggi si sono adattate <a class="red" title="aumentando; aggravando">inasprendo</a> le sanzioni contro i <a title="colpevoli">perpetratori</a> di queste violenze.<br>
+                    Un esempio è la <a class="primary" href="https://it.wikipedia.org/wiki/Convenzione_del_Consiglio_d%27Europa_sulla_prevenzione_e_la_lotta_contro_la_violenza_nei_confronti_delle_donne_e_la_violenza_domestica#:~:text=La%20Convenzione%20di%20Istanbul%20%C3%A8,vittime%20e%20perseguire%20i%20trasgressori." title="Pagina Wikipedia dell'articolo">convenzione di Instanbul del 2011</a>
+                    la quale sancisce il <span class="italic">primo strumento internazionale giuridicamente vincolante che crea un quadro [..] giuridico per proteggere le donne contro qualsiasi forma di violenza.</span>
+                </span>
+                <button class="button button-secondary margin-top-classic next-intro-section">
+                    Continua
+                </button>
+            </div>
+            <div class="container column center intro-section" id="intro__section__9">
+                <span class="text big bold nowrap text-center">
+                    In particolare, in Italia nel 2013 è stata <a class="primary" title="dichiarata; proclamata;">emanata</a>
+                    una <a class="red text-glow stop-glow-on-hover" id="legge__hover" title="Questa legge prende il nome di Codice Rosso proprio a causa di ciò che enuncia.">legge speciale</a> per punire gli omicidi di donne molto <a class="red" title="crudeli; brutali; malvagi;">efferati</a> in ambito della famiglia.
+                </span>
+                <script>
+                    $("#legge__hover").hover(() => {
+                        setTimeout(() => {
+                            $("#intro__section__9__button").removeClass("disabled")
+                            $("#intro__section__9__button").prop("disabled", false)
+                            $("#legge__hover").off("mouseenter")
+                        }, 1500)
+                    })
+                </script>
+                <div class="container column center margin-all" style="background-color: rgb(31, 31, 31); box-sizing: border-box; padding: 1rem; border-radius: 1rem;">
+                    <div class="container row center">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2716/2716587.png" style="width: 3rem; aspect-ratio: square;">
+                        <span class="text bold big" style="margin-left: 1rem;">
+                            Sanzioni da 14 a 24 anni
+                        </span>
+                    </div>
+                    <div class="container row center margin-top-classic">
+                        <img src="./images/shield.png" style="width: 3rem; aspect-ratio: square;">
+                        <span class="text bold big" style="margin-left: 1rem;">
+                            <a title="dare; da a disposizione;"">Predispone</a> delle misure preventive per evitare che si arrivi all'omicidio.
+                        </span>
+                    </div>
+                </div>
+                <button class="button button-secondary margin-top-classic next-intro-section disabled" id="intro__section__9__button" disabled>
+                    Continua
+                </button>
+            </div>
+        </div>
+        <div class="container column center" id="hero__section">
             <div class="container column center" id="hero__center">
                 <span class="text big bold primary nowrap text-center" id="main__title">
                     La violenza di genere
@@ -17,7 +186,7 @@
                 <span class="text bigger bold secondary wavy nowrap text-center" id="sub__title">
                     è un problema serio
                 </span>
-                <div class="container column center" id="hero__inner_container">
+                <div class="container column center" id="hero__inner__container">
                     <span class="text medium third">La storia di <b>Francesca</b></span>
                     <span class="text third text-center">
                         <br>
@@ -26,7 +195,7 @@
                         Ora ho 32 anni e sono una persona diversa rispetto a otto anni fa. Il dolore e <span class="red">l’ingiustizia</span> subiti mi hanno cambiata profondamente. Anche se il tempo passa e le ferite si cicatrizzano, <span class="red">non scompaiono</span> mai del tutto...
                     </span>
                     <a class="button button-primary">
-                        Continua a leggere
+                        Leggi altre storie
                     </a>
                 </div>
             </div>
