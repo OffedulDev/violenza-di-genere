@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="libs/jquery-3.7.1.min.js"></script>
+    <script src="libs/jquery-ui.js"></script>
+    <link rel="stylesheet" href="libs/jquery-ui.css">
+    <script src="libs/js.cookie.3.0.5.min.js"></script>
+    <script src="scripts/stories.js"></script>
+    <script src="scripts/redirect-no-intro.js"></script>
+    <link rel="stylesheet" href="styles/root.css">
+    <link rel="stylesheet" href="styles/stories.css">
+    <title>Le storie</title>
+</head>
+<body>
+    <div class="container column" id="main__container">
+        <a class="text primary" href="/">Torna indietro</a>
+        <span class="text big">
+            Le storie di <span class="red bold">violenza</span>
+        </span>
+        <div class="container row" id="main__carousel">
+            <div class="container column card" id="card__template" style="display: none;">
+                <span class="text medium primary bold card-subtitle">Fonte: TriplaDifesa</span>
+                <span class="card-heading">La storia di Marco</span>
+                <img src="https://www.doppiadifesa.it/wp-content/uploads/2018/05/storie.jpg" class="card-image shadow">
+                <a class="button button-secondary">
+                    Leggi
+                </a>
+            </div>
+        </div>
+        <div class="container row" id="scroll__actions__container">
+            <button id="back__scroll">
+                Indietro
+            </button>
+            <button id="forward__scroll">
+                Avanti
+            </button>
+        </div>
+    </div>
+</body>
+</html>

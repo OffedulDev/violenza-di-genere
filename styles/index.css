@@ -3,6 +3,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     overflow-y: hidden !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #intro__section {

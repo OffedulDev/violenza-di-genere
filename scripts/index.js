@@ -74,22 +74,41 @@ function loadPageNormally() {
 }
 
 $(document).ready(() => {
-    $("a").attr("target", "_blank")
+    $.each($("a"), function(index, value){
+        if (!$(value).hasClass("no-target")) {
+            $(value).attr("target", "_blank")
+        }
+    })
+
     $(".stop-glow-on-hover").hover((event) => {
         $(event.target).off("mouseenter")
         $(event.target).removeClass("text-glow")
     })
 
-    if (Cookies.get("acceptedCookies") != undefined) {
-        $("#cookies__box").slideUp()
-    }
-
-    $("#accept__cookies").on("click", () => {
+    function acceptCookies() {
         Cookies.set("acceptedCookies", true, {
             expires: 1,
             path: ""
         })
         $("#cookies__box").slideUp("slow")
+    }
+
+    if (Cookies.get("acceptedCookies") != undefined) {
+        $("#cookies__box").slideUp()
+    } else {
+        setTimeout(() => {
+            if (Cookies.get("acceptedCookies") == undefined) {
+                $("#cookies__box").children("span").text("Cookies accettati automaticamente")
+                $("#cookies__box").children("button").hide()
+                setTimeout(() => {
+                    acceptCookies()
+                }, 2500);
+            }  
+       }, 5500);
+    }
+
+    $("#accept__cookies").on("click", () => {
+        acceptCookies()
     })
     $(function(){
         $(document).tooltip()

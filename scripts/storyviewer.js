@@ -7,7 +7,10 @@ $.urlParam = function (name) {
 
 $(document).ready(() => {
     let story_name = $.urlParam("story")
-    let story_path = `stories/${story_name}.md`
+    let story_path = `stories/markdown/${story_name}.md`
 
     $("#text__block").attr("src", story_path)
+    $(".go-back").on("click", () => {
+        window.location.href = "/stories.html"
+    })
 })

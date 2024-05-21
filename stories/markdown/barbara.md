@@ -10,6 +10,8 @@ Ci sono emozioni talmente complesse che emergono dal nostro profondo quando siam
 Ma in questo percorso difficile ho avuto la fortuna di potermi confrontare regolarmente con la psicologa della Fondazione che ha saputo traghettarmi fuori da uno stato indefinito, di profonda sfiducia nelle relazioni umane per tornare a credere nelle mie possibilità ed avere il coraggio di utilizzare i miei strumenti per riprendere nuovamente in mano la mia vita.
 Parallelamente ho potuto riporre piena fiducia nell’avvocato della Fondazione che ha saputo tenermi al riparo da confronti devastanti.
 
+![](https://www.doppiadifesa.it/wp-content/uploads/2018/05/storie.jpg)
+
 Ora, dopo un anno di percorso intrapreso insieme alla Fondazione inizio a sentirmi pronta, pronta ad affrontare le insidie della vita ma anche a riaccogliere la bellezza, la leggerezza e l’allegria.
 
 Qualunque sia l’esito legale di questa vicenda so che riuscirò ad affrontarla lucidamente senza farmi sopraffare dalla paura.
