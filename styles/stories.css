@@ -1,0 +1,47 @@
+#main__container {
+    padding: 1rem;
+}
+
+#main__carousel {
+    margin-top: 1rem;
+    max-width: 95vw;
+    overflow-x: scroll;
+    gap: 1rem;
+
+    -ms-overflow-style: none;
+    scrollbar-width: 0;
+}
+
+#main__carousel::-webkit-scrollbar {
+    display: none;
+}
+
+#scroll__actions__container {
+    margin-top: 1rem;
+    max-width: 95vw;
+}
+
+#scroll__actions__container>button {
+    color: black;
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: grab;
+}
+
+#scroll__actions__container>button:active {
+    cursor: grabbing;
+}
+
+#scroll__actions__container>button:last-child {
+    margin-left: auto;
+}
+
+.button {
+    margin: 0;
+    margin-block-start: 1rem;
+}
