@@ -32,7 +32,7 @@ $(document).ready(() => {
             $(clonedElement).children(".card-heading").text(value.title)
             $(clonedElement).children("img").attr("src", value.image)
             $(clonedElement).on("click", () => {
-                window.location.href = `/storyviewer.html?story=${value.markdown}`
+                window.location.href = `./storyviewer.html?story=${value.markdown}`
             })
             $(clonedElement).appendTo("#main__carousel")
             $(clonedElement).slideDown("slow")

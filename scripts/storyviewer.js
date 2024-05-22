@@ -11,6 +11,6 @@ $(document).ready(() => {
 
     $("#text__block").attr("src", story_path)
     $(".go-back").on("click", () => {
-        window.location.href = "/stories.html"
+        window.location.href = "./stories.html"
     })
 })
