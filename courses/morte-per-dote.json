@@ -1,0 +1,41 @@
+{
+    "cookie_name": "morte-per-dote",
+    "sections": [
+        {
+            "big_title": "Crediti",
+            "markdown": "Questo breve percorso illustra cos'è la morte per dote . <br>Per la realizzazione è stato usato <a href='https://it.wikipedia.org/wiki/Femminicidio#Morte_per_dote' target='_blank'>questo</a> articolo.",
+            "button_text": "Inizia"
+        },
+        {
+            "markdown": "La morte per dote è l'uccisione o l'induzione al suicidio delle donne attraverso tortura e molestie da parte di mariti o suoceri per una disputa sulla loro <a class='text-glow' title='La dote sono i beni che la famiglia di una sposa conferisce allo sposo con il matrimonio.'>dote</a>.",
+            "continue_requirement": true,
+            "button_text": "Continua"
+        },
+        {
+            "big_title": "Dov'è diffuso questo fenomeno?",
+            "markdown": "Le morti per dote avvengono principalmente nel <a href='https://it.wikipedia.org/wiki/Subcontinente_indiano' target='_blank'>Subcontinente indiano</a><br><img style='margin-top: 1rem' src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/India_78.40398E_20.74980N.jpg/480px-India_78.40398E_20.74980N.jpg'>",
+            "button_text": "Continua"
+        },
+        {
+            "markdown": "Una volta la dote era composta da un chilo di gioielli in oro, invece ora di beni di consumo, come una televisione, l'aria condizionata, un motorino.",
+            "button_text": "Continua"
+        },
+        {
+            "markdown": "Il governo indiano ha reso illegale la pratica della dote con il <a href='https://www.indiacode.nic.in/bitstream/123456789/5556/1/dowry_prohibition.pdf' target='_blank'>Dowry Prohibition Act</a> nel 1961, purtroppo però la pratica continua e produce forti tensioni fra i due sposi e fra le due famiglie coinvolte.",
+            "button_text": "Continua"
+        },
+        {
+            "markdown": "Per esempio, nel 2018, una donna bengalese denunciò il marito e la famiglia di lui per averla convinta a sottoporsi a un'operazione chirurgica in cui le è stato asportato un rene senza informarla: il marito aveva venduto il rene della moglie sul mercato nero degli organi, al prezzo della dote che la famiglia della sposa non riusciva a pagare.",
+            "button_text": "Continua"
+        },
+        {
+            "markdown": "Quando la dote non viene pagata, si può arrivare all'uccisione. Ci sono casi documentati in cui la famiglia dello sposo, scontenta della dote corrisposta dalla famiglia della sposa, ha ucciso la donna, simulando un incidente domestico.",
+            "button_text": "Continua"
+        },
+        {
+            "big_title": "Congratulazioni!",
+            "markdown": "Hai completato il percorso interattivo sulla morte per dote. Premendo fine verrai reindirizzato alla pagina delle storie.",
+            "button_text": "Fine"
+        }
+    ]
+}

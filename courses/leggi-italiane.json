@@ -1,0 +1,39 @@
+{
+    "cookie_name": "leggi-italiane",
+    "sections": [
+        {
+            "big_title": "Crediti",
+            "markdown": "Questo breve percorso illustra cosa dicono le leggi italiane in materia di discriminazione di genere. <br>Per la realizzazione è stato usato <a href='https://www.diritto.it/violenza-genere-riconoscerla-legge-allontanarsi/#block-ce3667d8-036e-45e5-8e4f-24ca82c2ba02' target='_blank'>questo</a> articolo.",
+            "button_text": "Inizia"
+        },
+        {
+            "markdown": "La violenza di genere è quando una persona fa del male a un'altra perché è una donna. Questo tipo di <a title='Ad esempio, può andare dal colpire una persona (violenza fisica), costringerla a fare cose che non vuole, farla sentire male con parole cattive (violenza psicologica), o non permetterle di usare i suoi soldi (violenza economica)'>violenza</a> può essere fisica, psicologica o economica.",
+            "button_text": "Continua"
+        },
+        {
+            "markdown": "In Italia, ci sono <a class='text-glow' title='Come ad esempio la legge Codice Rosso'>leggi speciali</a> per proteggere le donne dalla violenza di genere. La Convenzione di Istanbul del 2011 è una delle più importanti e dice che la violenza contro le donne è sbagliata e che dobbiamo fare di tutto per fermarla. Inoltre, ci sono leggi che puniscono chi commette violenza.",
+            "continue_requirement": true,
+            "button_text": "Continua"
+        },
+        {
+            "big_title": "Come si riconosce una situazione di violenza di genere?",
+            "markdown": "Ci sono molti segnali che possono far capire se qualcuno sta subendo violenza di genere. Ad esempio, se una persona è sempre controllata da un'altra su come si veste o con chi esce, se è isolata dai suoi amici e familiari, o se ha paura senza motivo, potrebbe essere una vittima di violenza.",
+            "button_text": "Continua"
+        },
+        {
+            "markdown": "Se una persona è in pericolo, è importante che abbia amici e familiari che la sostengano. È difficile chiedere aiuto, ma è necessario per poter uscire da una situazione di violenza. Si può chiedere supporto a psicologi e avvocati.",
+            "button_text": "Continua"
+        },
+        {
+            "big_title": "A chi si può chiedere aiuto?",
+            "markdown": "In Italia, ci sono molti <a class='text-glow' title='Come ad esempio il numero 1522 per denunciare violenze di genere oppure YouPol della Polizia di Stato'>servizi</a> che possono aiutare chi subisce violenza di genere. Ci sono anche i Pronto Soccorso, i consultori e i centri antiviolenza. Inoltre, ci sono <a title='Come ad esempio UDI e Ihaveavoice'>associazioni</a> che offrono assistenza gratuita.<br><img style='margin: 1rem' src='https://www.pariopportunita.gov.it/media/2368/logo_1522.png?width=500&height=87.0253164556962'>",
+            "continue_requirement": true,
+            "button_text": "Continua"
+        },
+        {
+            "big_title": "Congratulazioni!",
+            "markdown": "Hai completato il percorso, premendo fine verrai reindirizzato alla lista delle storie.",
+            "button_text": "Fine"
+        }
+    ]
+}

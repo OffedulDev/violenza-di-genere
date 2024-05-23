@@ -7,15 +7,15 @@
     <script src="libs/jquery-ui.js"></script>
     <link rel="stylesheet" href="libs/jquery-ui.css">
     <script src="libs/js.cookie.3.0.5.min.js"></script>
-    <script src="scripts/stories.js"></script>
     <script src="scripts/redirect-no-intro.js"></script>
+    <script src="scripts/stories.js"></script>
     <link rel="stylesheet" href="styles/root.css">
     <link rel="stylesheet" href="styles/stories.css">
     <title>Le storie</title>
 </head>
 <body>
     <div class="container column" id="main__container">
-        <a class="text primary" href="/">Torna indietro</a>
+        <a class="text primary" href="./index.html">Torna indietro</a>
         <span class="text big">
             Le storie di <span class="red bold">violenza</span>
         </span>
@@ -38,5 +38,26 @@
             </button>
         </div>
     </div>
+    <div id="secondary__container" class="container column">
+        <span class="text bigger bold">Percorsi interattivi</span>
+        <div class="container row" style="align-items: center; gap: 0.5rem; padding-bottom: 1rem;">
+            <svg style="width: 2rem" class="text" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>              
+            <input placeholder="Cerca qui" type="text" id="search__course">
+        </div>
+        <div class="container column" id="courses__container" style="gap: 1rem">
+            <div class="card" style="gap: 0; display: none;" id="course__template">
+                <span class="card-heading" style="margin-bottom: 0.15rem;">Nome percorso</span>
+                <span class="text secondary card-subtitle">Descrizione percorso</span>
+                <button class="button button-primary" style="margin-top: 0.5rem;">
+                    Avvia
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer class="text bold" style="padding-left: 1rem; padding-bottom: 1rem;">
+        Realizzato da Filippo C. 2°CAFM a.s. 2023/24
+    </footer> 
 </body>
 </html>

@@ -1,3 +1,7 @@
+body {
+    overflow-y: scroll;
+}
+
 #main__container {
     padding: 1rem;
 }
@@ -39,6 +43,12 @@
 
 #scroll__actions__container>button:last-child {
     margin-left: auto;
+}
+
+#secondary__container {
+    padding: 1rem;
+    max-width: 95vw;
+    gap: 0.5rem;
 }
 
 .button {

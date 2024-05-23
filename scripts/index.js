@@ -43,9 +43,17 @@ function bounce(selector) {
 }
 
 function loadPageNormally() {
+    let isAnimating = false
     $("#hero__inner__container").hide()
     $("#hero__center").hover(() => {
-        $("#hero__inner__container").slideDown("slow")
+        if (isAnimating == true) {
+            return
+        }
+        isAnimating = true
+        
+        $("#hero__inner__container").slideDown("slow", () => {
+            isAnimating = false
+        })
 
         // TITLES OUT
         $("#main__title").animate({

@@ -52,6 +52,7 @@ md-block {
 
 .card-image {
     width: 30vw;
+    height: 100%;
     border-radius: 0.5rem;
 }
 
@@ -99,6 +100,13 @@ md-block {
 }
 
 /* Utility */
+
+input[type=text] {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    max-width: 50%;
+    border-radius: 0.5rem;
+}
 
 a {
     text-decoration: underline;

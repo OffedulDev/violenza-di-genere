@@ -5,6 +5,24 @@
             "markdown": "barbara",
             "image": "https://www.doppiadifesa.it/wp-content/uploads/2018/05/storie.jpg",
             "source": "DoppiaDifesa"
+        },
+        {
+            "title": "La storia di Ornella",
+            "markdown": "ornella",
+            "image": "https://isfar-firenze.it/wp-content/uploads/2023/01/sostegno-donna.jpeg",
+            "source": "isfar-firenze.it"
+        },
+        {
+            "title": "La storia di Giulia",
+            "markdown": "giulia",
+            "image": "https://www.donnamoderna.com/content/uploads/2020/11/b-linda-dorigo-hip4346_alta-p__38903480-e1606212833428-830x625.jpg",
+            "source": "donnamoderna.com"
+        },
+        {
+            "title": "La storia di Veronica",
+            "markdown": "veronica",
+            "image": "https://plus.unsplash.com/premium_photo-1664299995445-5670ef92fff6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "source": "bolognatoday.it"
         }
     ]
 }

@@ -1,0 +1,16 @@
+{
+    "courses": [
+        {
+            "title": "Leggi italiane",
+            "file": "leggi-italiane",
+            "description": "Scopri cosa dicono nello specifico le leggi italiane in materia di violenza di genere.",
+            "cookie_name": "leggi-italiane"
+        },
+        {
+            "title": "La morte per dote",
+            "file": "morte-per-dote",
+            "description": "Scopri un altro triste motivo di femminicidio diffuso nel mondo.",
+            "cookie_name": "morte-per-dote"
+        }
+    ]
+}
